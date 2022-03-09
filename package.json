@@ -1,0 +1,31 @@
+{
+  "name": "blogger",
+  "version": "1.0.0",
+  "description": "my blogger app",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarryWho/blogger.git"
+  },
+  "author": "Calvin Bartlett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HarryWho/blogger/issues"
+  },
+  "homepage": "https://github.com/HarryWho/blogger#readme",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.4",
+    "passport": "^0.5.2",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
